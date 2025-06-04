@@ -17,9 +17,9 @@ pip install -r requirements.txt
 ```
 
 ## Run
-
+```bash
 Follow steps in notebook
-
+```
 The script will automatically download the CIFAR-10 dataset, split it into training, validation, and test sets, then train and evaluate each model, printing accuracy metrics to the console.
 
 Both models default to training for 15 epochs. Adjust hyper-parameters at the top of `main.py` as desired. 
